@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "rhizome-native",
+  "version-string": "1.0.0",
+  "description": "Native Implicit SDF Engine using C++20, CUDA, ImGui, OpenGL",
+  "builtin-baseline": "10541e317a660f4165ba4ac2851ab54a8d4577b1",
+  "dependencies": [
+    "glfw3",
+    "glad",
+    "glm",
+    {
+      "name": "imgui",
+      "features": ["glfw-binding", "opengl3-binding", "docking-experimental"]
+    }
+  ]
+}

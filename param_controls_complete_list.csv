@@ -1,0 +1,252 @@
+Control_ID,Source_File,Panel_Section,Control_Function,Control_Type,Label,Min_Value,Max_Value,Unit,Category_ID,Logging_Triggered
+CTRL001,panel_growth.cpp,Growth Command Bar,render_pill_button,Button,"Import",,,Click only,COMMAND_01,YES
+CTRL002,panel_growth.cpp,Growth Command Bar,render_pill_button,Button,"Start",,,Click only,COMMAND_01,YES
+CTRL003,panel_growth.cpp,Growth Command Bar,render_pill_button,Button,"Stop",,,Click only,COMMAND_01,YES
+CTRL004,panel_growth.cpp,Growth Command Bar,render_pill_button,Button,"Clear",,,Click only,COMMAND_01,YES
+CTRL005,panel_growth.cpp,Algorithm,begin_pill_combo,Combo,"Algorithm Selector",0,4,,ALGORITHM_01,YES
+CTRL006,panel_growth.cpp,Algorithm,ImGui::Button,Button,"Export Algorithm",,,Click only,ALGORITHM_01,YES
+CTRL007,panel_growth.cpp,Algorithm,ImGui::Button,Button,"Import Algorithm",,,Click only,ALGORITHM_01,YES
+CTRL008,panel_growth.cpp,Algorithm,ImGui::Button,Button,"Delete Algorithm",,,Click only,ALGORITHM_01,YES
+CTRL009,panel_growth.cpp,Algorithm,render_compact_slider_float,"Root Roughness",0.00,1.00,,GROWTH_01,YES
+CTRL010,panel_growth.cpp,Algorithm,render_compact_slider_float,"Push Strength",0.00,1.00,,GROWTH_01,YES
+CTRL011,panel_growth.cpp,Algorithm,render_compact_slider_float,"Space Fill Drive",0.10,1.00,,GROWTH_01,YES
+CTRL012,panel_growth.cpp,Algorithm,render_compact_slider_float,"Backward Pull",0.00,1.00,,GROWTH_01,YES
+CTRL013,panel_growth.cpp,Algorithm,render_compact_slider_float,"Tensile Straightening",0.00,1.00,,GROWTH_01,YES
+CTRL014,panel_growth.cpp,Algorithm,render_compact_slider_float,"Surface Adherence",0.00,1.00,,GROWTH_03,YES
+CTRL015,panel_growth.cpp,Algorithm,render_compact_slider_float,"Murray Exponent",2.00,4.00,gamma,GROWTH_02,YES
+CTRL016,panel_growth.cpp,Algorithm,render_compact_slider_float,"Murray Branch Angle",15.0,65.0,Degrees,GROWTH_02,YES
+CTRL017,panel_growth.cpp,Colonization Seeds,render_compact_slider_int,"Spore Count",2000,50000,count,ALGORITHM_01,YES
+CTRL018,panel_growth.cpp,Colonization Seeds,render_compact_slider_int,"Primary Roots",1,8,count,ALGORITHM_01,YES
+CTRL019,panel_growth.cpp,Colonization Seeds,render_compact_slider_float,"Search Radius",4.0,30.0,mm,ALGORITHM_01,YES
+CTRL020,panel_growth.cpp,Colonization Seeds,render_compact_slider_float,"Kill Radius",0.5,10.0,mm,ALGORITHM_01,YES
+CTRL021,panel_growth.cpp,Branching & Growth,render_toggle_switch,"Variable Step",,TRUE,FALSE,,GROWTH_01,YES
+CTRL022,panel_growth.cpp,Branching & Growth,render_compact_slider_float,"Min Growth Step",0.25,4.00,mm,GROWTH_01,YES
+CTRL023,panel_growth.cpp,Branching & Growth,render_compact_slider_float,"Max Growth Step",0.25,6.00,mm,GROWTH_01,YES
+CTRL024,panel_growth.cpp,Branching & Growth,render_compact_slider_float,"Growth Step Size",0.25,6.00,mm,GROWTH_01,YES
+CTRL025,panel_growth.cpp,Branching & Growth,render_compact_slider_float,"Branching Rate",0.10,1.00,,GROWTH_01,YES
+CTRL026,panel_growth.cpp,Branching & Growth,render_compact_slider_float,"Steering Cone",5.0,90.0,Degrees,GROWTH_01,YES
+CTRL027,panel_growth.cpp,Branching & Growth,render_compact_slider_int,"Max Steps",5,150,count,GROWTH_01,YES
+CTRL028,panel_growth.cpp,Vessel & Caliber,render_compact_slider_float,"Trunk Radius",0.10,3.00,mm,GROWTH_01,YES
+CTRL029,panel_growth.cpp,Vessel & Caliber,render_compact_slider_float,"Tip Radius",0.05,2.00,mm,GROWTH_01,YES
+CTRL030,panel_growth.cpp,Vessel & Caliber,render_toggle_switch,"Variable Taper",,TRUE,FALSE,,GROWTH_01,YES
+CTRL031,panel_growth.cpp,Vessel & Caliber,render_compact_slider_float,"Taper Curve",0.20,5.00,,GROWTH_01,YES
+CTRL032,panel_growth.cpp,Vessel & Caliber,render_compact_slider_float,"Branch Smoothness (K)",0.00,2.00,mm,GROWTH_04,YES
+CTRL033,panel_growth.cpp,Vessel & Caliber,render_compact_slider_float,"Wall Clearance",0.50,1.50,x,GROWTH_01,YES
+CTRL034,panel_growth.cpp,Vessel & Caliber,render_compact_slider_float,"Wall Cut Smooth",0.00,2.00,mm,GROWTH_01,YES
+CTRL035,panel_growth.cpp,Lateral Roots,render_compact_slider_float,"Sprout Spacing",0.50,6.00,mm,LATERAL_01,YES
+CTRL036,panel_growth.cpp,Lateral Roots,render_compact_slider_float,"Lateral Base",0.05,0.80,mm,LATERAL_01,YES
+CTRL037,panel_growth.cpp,Lateral Roots,render_compact_slider_float,"Lateral Tip",0.02,0.40,mm,LATERAL_01,YES
+CTRL038,panel_growth.cpp,Lateral Roots,render_compact_slider_float,"Max Reach",1.00,25.00,mm,LATERAL_01,YES
+CTRL039,panel_growth.cpp,Lateral Roots,render_compact_slider_float,"Surface Wander",0.00,1.00,,LATERAL_01,YES
+CTRL040,panel_growth.cpp,Lateral Roots,render_compact_slider_float,"Branch Angle",15.0,85.0,Degrees,LATERAL_01,YES
+CTRL041,panel_growth.cpp,Seeding,render_compact_slider_float,"Seed Offset",0.00,5.00,mm,SEED_01,YES
+CTRL042,panel_growth.cpp,Seeding,ImGui::Button,Button,"Add Seed (+)",,,Click only,SEED_01,YES
+CTRL043,panel_growth.cpp,Seeding,ImGui::Button,Button,"Remove Seed (-)",,,Click only,SEED_01,YES
+CTRL044,panel_growth.cpp,Seeding,ImGui::Button,Button,"Freeze All Seeds",,,Click only,SEED_01,YES
+CTRL045,panel_growth.cpp,Seeding,ImGui::Button,Button,"Unfreeze All Seeds",,,Click only,SEED_01,YES
+CTRL046,panel_growth.cpp,Seeding,ImGui::Button,Button,"Select Seed (S1-Sn)",1,32,slot,SEED_01,YES
+CTRL047,panel_growth.cpp,Seeding,render_toggle_switch,"Freeze Seed",,TRUE,FALSE,,SEED_01,YES
+CTRL048,panel_growth.cpp,Seeding,render_toggle_switch,"Snap to Root",,TRUE,FALSE,,SEED_01,YES
+CTRL049,panel_growth.cpp,Seeding,render_toggle_switch,"Lateral Roots",,TRUE,FALSE,,SEED_01,YES
+CTRL050,panel_growth.cpp,Execution,render_toggle_switch,"Live Animated Growth",,TRUE,FALSE,,GROWTH_04,YES
+CTRL051,panel_growth.cpp,Execution,render_compact_slider_int,"Step Rate (Live FPS)",1,30,fps,GROWTH_04,YES
+CTRL052,panel_growth.cpp,Execution,render_compact_slider_int,"Steps Per Frame",1,10,count,GROWTH_04,YES
+CTRL053,panel_styles.cpp,Growth Presets Library,begin_pill_combo,Combo,"Growth Preset Selector",0,10,,PRESET_01,YES
+CTRL054,panel_styles.cpp,Growth Presets Library,ImGui::Button,Button,"Apply Preset",,,Click only,PRESET_01,YES
+CTRL055,panel_styles.cpp,Growth Presets Library,ImGui::Button,Button,"Update Preset",,,Click only,PRESET_01,YES
+CTRL056,panel_styles.cpp,Growth Presets Library,ImGui::Button,Button,"Delete Preset",,,Click only,PRESET_01,YES
+CTRL057,panel_styles.cpp,Record New Preset,ImGui::InputText,Text Input,"New Preset Name",,,Text,PRESET_01,YES
+CTRL058,panel_styles.cpp,Record New Preset,ImGui::Button,Button,"Save New Preset",,,Click only,PRESET_01,YES
+CTRL059,panel_styles.cpp,Record New Preset,ImGui::Button,Button,"Export to Clipboard",,,Click only,PRESET_01,YES
+CTRL060,panel_styles.cpp,Color Themes & Presets,render_pill_combo,Combo,"Theme Preset Selector",0,3,,THEME_01,YES
+CTRL061,panel_styles.cpp,Color Themes & Presets,ImGui::Button,Button,"Reset Theme",,,Click only,THEME_01,YES
+CTRL062,panel_styles.cpp,Color Themes & Presets,ImGui::Button,Button,"Save Style Reference",,,Click only,THEME_01,YES
+CTRL063,panel_styles.cpp,Color Themes & Presets,ImGui::Button,Button,"Revert Style Reference",,,Click only,THEME_01,YES
+CTRL064,panel_styles.cpp,Color Themes & Presets,ImGui::Button,Button,"Copy Style C++",,,Click only,THEME_01,YES
+CTRL065,panel_styles.cpp,Color Themes & Presets,ImGui::Button,Button,"Copy Layout INI",,,Click only,THEME_01,YES
+CTRL066,panel_styles.cpp,Display Font / Typography,begin_pill_combo,Combo,"Display Font Selector",0,5,,TYPO_01,YES
+CTRL067,panel_styles.cpp,Display Font / Typography,render_toggle_switch,"Bold Weight",,TRUE,FALSE,,TYPO_01,YES
+CTRL068,panel_styles.cpp,Display Font / Typography,render_compact_slider_float,"Font Scale",0.50,2.00,x,TYPO_01,YES
+CTRL069,panel_styles.cpp,Display Font / Typography,render_compact_slider_float,"Item Spacing Y",2.0,24.0,px,TYPO_01,YES
+CTRL070,panel_styles.cpp,Display Font / Typography,ImGui::Button,Button,"Reset Typography Settings",,,Click only,TYPO_01,YES
+CTRL071,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Viewport Background Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL072,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Floor Grid Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL073,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Floor X-Axis Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL074,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Floor Y-Axis Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL075,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Original Mesh Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL076,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Body / Glass Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL077,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Root Network Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL078,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Branch Skeleton Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL079,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Spores Cloud Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL080,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Active Seed Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL081,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Inactive Seeds Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL082,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Bounding Box Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL083,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Wireframe Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL084,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Test Pass Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL085,panel_styles.cpp,Viewport Element Colors,ImGui::ColorEdit4,Color Picker,"Test Fail Color",0.0,1.0,RGBA,COLOR_01,YES
+CTRL086,panel_styles.cpp,Viewport Element Colors,ImGui::Button,Button,"Reset Viewport Colors",,,Click only,COLOR_01,YES
+CTRL087,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Diffuse Light",0.20,1.50,,SHADING_01,YES
+CTRL088,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Edge Darkening",0.00,1.00,,SHADING_01,YES
+CTRL089,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Crevice Occlusion",0.00,1.00,,SHADING_01,YES
+CTRL090,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Specular",0.00,0.60,,SHADING_01,YES
+CTRL091,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Bark Relief Shading",0.00,2.00,,SHADING_01,YES
+CTRL092,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Bark Relief Scale",0.10,10.00,,SHADING_01,YES
+CTRL093,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Light Azimuth",-180.0,180.0,Degrees,SHADING_01,YES
+CTRL094,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Light Elevation",-89.0,89.0,Degrees,SHADING_01,YES
+CTRL095,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Fill Light",0.00,1.00,,SHADING_01,YES
+CTRL096,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Ambient",0.00,1.00,,SHADING_01,YES
+CTRL097,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Glossiness",4.0,64.0,,SHADING_01,YES
+CTRL098,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Highlight Tint",0.00,1.00,,SHADING_01,YES
+CTRL099,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Fresnel Rim",0.00,1.00,,SHADING_01,YES
+CTRL100,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"Volumetric AO (raymarch)",0.00,1.00,,SHADING_01,YES
+CTRL101,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"SSS Strength (raymarch)",0.00,1.00,,SHADING_01,YES
+CTRL102,panel_styles.cpp,3D Lighting & Shading,render_compact_slider_float,"SSS Warmth (raymarch)",0.00,1.00,,SHADING_01,YES
+CTRL103,panel_styles.cpp,3D Lighting & Shading,ImGui::Button,Button,"Reset 3D Lighting",,,Click only,SHADING_01,YES
+CTRL104,panel_styles.cpp,Specimen Appearance,render_toggle_switch,"Matte Glass Specimen",,TRUE,FALSE,,SHADING_02,YES
+CTRL105,panel_styles.cpp,Specimen Appearance,render_compact_slider_float,"Glass Frosting",0.10,1.00,,SHADING_02,YES
+CTRL106,panel_styles.cpp,Specimen Appearance,render_compact_slider_float,"Opacity",0.10,1.00,,SHADING_02,YES
+CTRL107,panel_scene.cpp,Verification Suite,ImGui::Button,Button,"Run All Tests",,,Click only,TESTS_01,YES
+CTRL108,panel_scene.cpp,Verification Suite,ImGui::Button,Button,"Hide/View Log",,,Click only,TESTS_02,YES
+CTRL109,panel_verification.cpp,Verification Window,ImGui::Button,Button,"Run Tests (Window)",,,Click only,TESTS_01,YES
+CTRL110,panel_verification.cpp,Verification Window,ImGui::Button,Button,"Clear 3D Tests",,,Click only,TESTS_01,YES
+CTRL111,panel_verification.cpp,Verification Window,ImGui::Selectable,Selectable,"Load Test Model to Viewport",0,18,item,TESTS_01,YES
+CTRL112,panel_scene.cpp,Implicit Specimen,render_compact_slider_float,"Detail Level Override",0.05,0.80,mm,SPECIMEN_01,YES
+CTRL113,panel_scene.cpp,Implicit Specimen,ImGui::Button,Button,"Sphere (GPU Shape)",,,Click only,SPECIMEN_01,YES
+CTRL114,panel_scene.cpp,Implicit Specimen,ImGui::Button,Button,"Torus (GPU Shape)",,,Click only,SPECIMEN_01,YES
+CTRL115,panel_scene.cpp,Implicit Specimen,ImGui::Button,Button,"Box (GPU Shape)",,,Click only,SPECIMEN_01,YES
+CTRL116,panel_scene.cpp,Layers Visibility,render_toggle_switch,"Original Mesh",,TRUE,FALSE,,VISIBILITY_01,YES
+CTRL117,panel_scene.cpp,Layers Visibility,render_toggle_switch,"Converted Body",,TRUE,FALSE,,VISIBILITY_01,YES
+CTRL118,panel_scene.cpp,Layers Visibility,render_toggle_switch,"Roots",,TRUE,FALSE,,VISIBILITY_03,YES
+CTRL119,panel_scene.cpp,Layers Visibility,render_toggle_switch,"Colorize Roots",,TRUE,FALSE,,VISIBILITY_03,YES
+CTRL120,panel_scene.cpp,Layers Visibility,render_toggle_switch,"Colorize Strands",,TRUE,FALSE,,VISIBILITY_03,YES
+CTRL121,panel_scene.cpp,Layers Visibility,render_toggle_switch,"Branch Skeleton",,TRUE,FALSE,,VISIBILITY_03,YES
+CTRL122,panel_scene.cpp,Layers Visibility,render_toggle_switch,"Seeds",,TRUE,FALSE,,VISIBILITY_04,YES
+CTRL123,panel_scene.cpp,Layers Visibility,render_toggle_switch,"Spores",,TRUE,FALSE,,VISIBILITY_04,YES
+CTRL124,panel_scene.cpp,Layers Visibility,render_toggle_switch,"Bounding Box",,TRUE,FALSE,,VISIBILITY_05,YES
+CTRL125,panel_scene.cpp,Layers Visibility,render_toggle_switch,"Generated Mesh (Wireframe)",,TRUE,FALSE,,VISIBILITY_05,YES
+CTRL126,panel_scene.cpp,Layers Visibility,render_toggle_switch,"Auto Orbit",,TRUE,FALSE,,VISIBILITY_06,YES
+CTRL127,panel_scene.cpp,Export Options,render_pill_combo,Combo,"Export Target",0,2,,EXPORT_01,YES
+CTRL128,panel_scene.cpp,Export Options,render_toggle_switch,"Adaptive Voxel Size",,TRUE,FALSE,,MESH_01,YES
+CTRL129,panel_scene.cpp,Export Options,render_compact_slider_float,"Mesh Voxel Size",0.05,0.60,mm,MESH_01,YES
+CTRL130,panel_scene.cpp,Export Options,render_compact_slider_float,"Min Voxel Size",0.05,0.60,mm,MESH_01,YES
+CTRL131,panel_scene.cpp,Export Options,render_compact_slider_float,"Max Voxel Size",0.05,0.60,mm,MESH_01,YES
+CTRL132,panel_scene.cpp,Export Options,render_compact_slider_int,"Smoothing Passes",0,15,count,MESH_02,YES
+CTRL133,panel_scene.cpp,Export Options,render_compact_slider_float,"Smooth Strength",0.05,0.80,,MESH_02,YES
+CTRL134,panel_scene.cpp,Export Options,render_toggle_switch,"Manifold Repair",,TRUE,FALSE,,MESH_03,YES
+CTRL135,panel_scene.cpp,Export Options,ImGui::Button,Button,"Generate Mesh",,,Click only,MESH_01,YES
+CTRL136,panel_scene.cpp,Export Options,ImGui::Button,Button,"Export Mesh (OBJ)",,,Click only,EXPORT_02,YES
+CTRL137,panel_scene.cpp,Export Options,ImGui::Button,Button,"Export Binary STL",,,Click only,EXPORT_02,YES
+CTRL138,panel_scene.cpp,Export Options,ImGui::Button,Button,"Export Binary PLY",,,Click only,EXPORT_02,YES
+CTRL139,panel_scene.cpp,Bark Texture,render_compact_slider_float,"Grain Scale",1.0,20.0,,SURFACE_01,YES
+CTRL140,panel_scene.cpp,Bark Texture,render_compact_slider_float,"Vertical Stretch",1.0,10.0,,SURFACE_01,YES
+CTRL141,panel_scene.cpp,Bark Texture,render_compact_slider_float,"Furrow Depth",0.0,1.0,,SURFACE_01,YES
+CTRL142,panel_scene.cpp,Bark Texture,render_compact_slider_int,"Noise Octaves",1,6,count,SURFACE_01,YES
+CTRL143,panel_scene.cpp,Bark Texture,ImGui::Button,Button,"Generate 2D Bark Texture (GPU)",,,Click only,SURFACE_01,YES
+CTRL144,panel_scene.cpp,Bark Relief,render_compact_slider_float,"Displacement Depth",-5.0,5.0,mm,SURFACE_02,YES
+CTRL145,panel_scene.cpp,Bark Relief,render_compact_slider_float,"Tile Repeat U",1.0,16.0,,SURFACE_02,YES
+CTRL146,panel_scene.cpp,Bark Relief,render_compact_slider_float,"Tile Repeat V",1.0,32.0,,SURFACE_02,YES
+CTRL147,panel_scene.cpp,Bark Relief,render_toggle_switch,"Recompute Normals",,TRUE,FALSE,,SURFACE_02,YES
+CTRL148,panel_scene.cpp,Bark Relief,ImGui::Button,Button,"Apply Bark Relief to Mesh (GPU)",,,Click only,SURFACE_02,YES
+CTRL149,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"WindowPadding X",0,30,px,STYLE_01,YES
+CTRL150,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"WindowPadding Y",0,30,px,STYLE_01,YES
+CTRL151,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"FramePadding X",0,24,px,STYLE_01,YES
+CTRL152,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"FramePadding Y",0,24,px,STYLE_01,YES
+CTRL153,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"ItemSpacing X",0,24,px,STYLE_01,YES
+CTRL154,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"ItemSpacing Y",0,24,px,STYLE_01,YES
+CTRL155,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"InnerSpacing X",0,20,px,STYLE_01,YES
+CTRL156,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"InnerSpacing Y",0,20,px,STYLE_01,YES
+CTRL157,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"IndentSpacing",0,30,px,STYLE_01,YES
+CTRL158,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"ScrollbarSize",1,24,px,STYLE_01,YES
+CTRL159,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"GrabMinSize",1,24,px,STYLE_01,YES
+CTRL160,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"WindowBorder",0,3,px,STYLE_01,YES
+CTRL161,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"ChildBorder",0,3,px,STYLE_01,YES
+CTRL162,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"PopupBorder",0,3,px,STYLE_01,YES
+CTRL163,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"FrameBorder",0,3,px,STYLE_01,YES
+CTRL164,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"TabBorder",0,3,px,STYLE_01,YES
+CTRL165,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"WindowRounding",0,20,px,STYLE_01,YES
+CTRL166,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"ChildRounding",0,20,px,STYLE_01,YES
+CTRL167,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"FrameRounding",0,20,px,STYLE_01,YES
+CTRL168,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"PopupRounding",0,20,px,STYLE_01,YES
+CTRL169,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"ScrollbarRound",0,20,px,STYLE_01,YES
+CTRL170,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"GrabRounding",0,20,px,STYLE_01,YES
+CTRL171,panel_styles.cpp,Style Editor: Sizes,render_compact_slider_float,"TabRounding",0,20,px,STYLE_01,YES
+CTRL172,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"Text",0.0,1.0,RGBA,STYLE_02,YES
+CTRL173,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TextDisabled",0.0,1.0,RGBA,STYLE_02,YES
+CTRL174,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"WindowBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL175,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"ChildBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL176,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"PopupBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL177,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"Border",0.0,1.0,RGBA,STYLE_02,YES
+CTRL178,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"BorderShadow",0.0,1.0,RGBA,STYLE_02,YES
+CTRL179,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"FrameBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL180,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"FrameBgHovered",0.0,1.0,RGBA,STYLE_02,YES
+CTRL181,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"FrameBgActive",0.0,1.0,RGBA,STYLE_02,YES
+CTRL182,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TitleBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL183,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TitleBgActive",0.0,1.0,RGBA,STYLE_02,YES
+CTRL184,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TitleBgCollapsed",0.0,1.0,RGBA,STYLE_02,YES
+CTRL185,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"MenuBarBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL186,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"ScrollbarBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL187,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"ScrollbarGrab",0.0,1.0,RGBA,STYLE_02,YES
+CTRL188,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"ScrollbarGrabHovered",0.0,1.0,RGBA,STYLE_02,YES
+CTRL189,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"ScrollbarGrabActive",0.0,1.0,RGBA,STYLE_02,YES
+CTRL190,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"CheckMark",0.0,1.0,RGBA,STYLE_02,YES
+CTRL191,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"CheckboxSelectedBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL192,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"SliderGrab",0.0,1.0,RGBA,STYLE_02,YES
+CTRL193,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"SliderGrabActive",0.0,1.0,RGBA,STYLE_02,YES
+CTRL194,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"Button",0.0,1.0,RGBA,STYLE_02,YES
+CTRL195,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"ButtonHovered",0.0,1.0,RGBA,STYLE_02,YES
+CTRL196,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"ButtonActive",0.0,1.0,RGBA,STYLE_02,YES
+CTRL197,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"Header",0.0,1.0,RGBA,STYLE_02,YES
+CTRL198,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"HeaderHovered",0.0,1.0,RGBA,STYLE_02,YES
+CTRL199,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"HeaderActive",0.0,1.0,RGBA,STYLE_02,YES
+CTRL200,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"Separator",0.0,1.0,RGBA,STYLE_02,YES
+CTRL201,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"SeparatorHovered",0.0,1.0,RGBA,STYLE_02,YES
+CTRL202,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"SeparatorActive",0.0,1.0,RGBA,STYLE_02,YES
+CTRL203,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"ResizeGrip",0.0,1.0,RGBA,STYLE_02,YES
+CTRL204,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"ResizeGripHovered",0.0,1.0,RGBA,STYLE_02,YES
+CTRL205,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"ResizeGripActive",0.0,1.0,RGBA,STYLE_02,YES
+CTRL206,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"InputTextCursor",0.0,1.0,RGBA,STYLE_02,YES
+CTRL207,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TabHovered",0.0,1.0,RGBA,STYLE_02,YES
+CTRL208,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"Tab",0.0,1.0,RGBA,STYLE_02,YES
+CTRL209,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TabSelected",0.0,1.0,RGBA,STYLE_02,YES
+CTRL210,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TabSelectedOverline",0.0,1.0,RGBA,STYLE_02,YES
+CTRL211,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TabDimmed",0.0,1.0,RGBA,STYLE_02,YES
+CTRL212,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TabDimmedSelected",0.0,1.0,RGBA,STYLE_02,YES
+CTRL213,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TabDimmedSelectedOverline",0.0,1.0,RGBA,STYLE_02,YES
+CTRL214,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"DockingPreview",0.0,1.0,RGBA,STYLE_02,YES
+CTRL215,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"DockingEmptyBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL216,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"PlotLines",0.0,1.0,RGBA,STYLE_02,YES
+CTRL217,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"PlotLinesHovered",0.0,1.0,RGBA,STYLE_02,YES
+CTRL218,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"PlotHistogram",0.0,1.0,RGBA,STYLE_02,YES
+CTRL219,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"PlotHistogramHovered",0.0,1.0,RGBA,STYLE_02,YES
+CTRL220,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TableHeaderBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL221,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TableBorderStrong",0.0,1.0,RGBA,STYLE_02,YES
+CTRL222,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TableBorderLight",0.0,1.0,RGBA,STYLE_02,YES
+CTRL223,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TableRowBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL224,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TableRowBgAlt",0.0,1.0,RGBA,STYLE_02,YES
+CTRL225,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TextLink",0.0,1.0,RGBA,STYLE_02,YES
+CTRL226,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TextSelectedBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL227,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"TreeLines",0.0,1.0,RGBA,STYLE_02,YES
+CTRL228,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"DragDropTarget",0.0,1.0,RGBA,STYLE_02,YES
+CTRL229,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"DragDropTargetBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL230,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"UnsavedMarker",0.0,1.0,RGBA,STYLE_02,YES
+CTRL231,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"NavCursor",0.0,1.0,RGBA,STYLE_02,YES
+CTRL232,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"NavWindowingHighlight",0.0,1.0,RGBA,STYLE_02,YES
+CTRL233,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"NavWindowingDimBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL234,panel_styles.cpp,Style Editor: Colors,ImGui::ColorEdit4,Color Picker,"ModalWindowDimBg",0.0,1.0,RGBA,STYLE_02,YES
+CTRL235,panel_styles.cpp,Style Editor: UI Rendering,render_compact_slider_float,"Global Alpha",0.2,1,,STYLE_03,YES
+CTRL236,panel_styles.cpp,Style Editor: UI Rendering,render_compact_slider_float,"Disabled Alpha",0,1,,STYLE_03,YES
+CTRL237,panel_styles.cpp,Style Editor: UI Rendering,render_toggle_switch,"Anti-aliased lines",,TRUE,FALSE,,STYLE_03,YES
+CTRL238,panel_styles.cpp,Style Editor: UI Rendering,render_toggle_switch,"AA lines texture",,TRUE,FALSE,,STYLE_03,YES
+CTRL239,panel_styles.cpp,Style Editor: UI Rendering,render_toggle_switch,"Anti-aliased fill",,TRUE,FALSE,,STYLE_03,YES
+CTRL240,panel_styles.cpp,Style Editor: UI Rendering,render_compact_slider_float,"Curve Tess Tol",0.1,10,,STYLE_03,YES
+CTRL241,panel_styles.cpp,Style Editor: UI Rendering,render_compact_slider_float,"Circle Max Err",0.1,10,,STYLE_03,YES
+CTRL242,panel_growth.cpp,Developmental (Mode 4),render_compact_slider_float,"Framework GSA",20.0,89.0,deg,GROWTH_04,YES
+CTRL243,panel_growth.cpp,Developmental (Mode 4),render_compact_slider_float,"Lateral GSA",40.0,89.0,deg,GROWTH_04,YES
+CTRL244,panel_growth.cpp,Developmental (Mode 4),render_compact_slider_float,"Gravitropic Gain",0.04,0.5,,GROWTH_04,YES
+CTRL245,panel_growth.cpp,Developmental (Mode 4),render_compact_slider_float,"Wandering Noise",0.0,0.3,,GROWTH_04,YES
+CTRL246,panel_growth.cpp,Developmental (Mode 4),render_compact_slider_float,"Branch Angle",30.0,85.0,deg,GROWTH_04,YES
+CTRL247,panel_growth.cpp,Developmental (Mode 4),render_compact_slider_float,"Lateral Frequency",0.5,2.0,x,GROWTH_04,YES
+CTRL248,panel_growth.cpp,Developmental (Mode 4),render_compact_slider_float,"Vigor",0.5,1.5,x,GROWTH_04,YES
+CTRL249,panel_growth.cpp,Developmental (Mode 4),render_compact_slider_float,"Murray Gamma",2.3,3.2,gamma,GROWTH_04,YES
+CTRL250,panel_growth.cpp,Developmental (Mode 4),render_compact_slider_float,"Min Print Radius",0.15,0.8,mm,GROWTH_04,YES
+CTRL251,panel_growth.cpp,Developmental (Mode 4),render_compact_slider_int,"Section Budget",10000,60000,count,GROWTH_04,YES
